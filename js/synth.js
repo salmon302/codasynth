@@ -49,7 +49,7 @@ initOscillator();
 
 $(document).ready(function(){
     $("#lfoButton").click(function lfoOn() {
-        if(lfoButton.class == "unactivated"){
+        if(lfo.frequency.value == 0){
             lfo.frequency.value = 2;
             lfoButton.class = "activated";
             lfoButton.innerHTML = "DUBSTEP ON";
