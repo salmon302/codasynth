@@ -1,4 +1,4 @@
-// create audio context
+// create audio context 
 var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
 //create buttons and controls
